@@ -28,5 +28,8 @@ Algoritmo hrrank_arrcomparison
 		FinSi
 	FinPara
 	Escribir aliceCounter, " ", bobCounter
-	
+	Dimension result[2]
+	result[1] <- aliceCounter;
+	result[2] <- bobCounter;
+	Escribir "Array result: ", result[1], " ", result[2];
 FinAlgoritmo
